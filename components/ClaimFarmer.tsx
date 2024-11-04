@@ -9,7 +9,7 @@ export function ClaimFarmer() {
     return (
         <Container maxW={"1200px"}>
             <Flex direction={"column"} alignItems={"center"} justifyContent={"center"} h={"50vh"}>
-                <Heading>Claim Worker to start building</Heading>
+                <Heading>Claim Worker to start building:</Heading>
                 <Box borderRadius={"8px"} overflow={"hidden"} my={10}>
                     <MediaRenderer
                         src={metadata?.image}
