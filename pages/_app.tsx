@@ -11,7 +11,9 @@ import NavBar from "../components/NavBar";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain={Sepolia}>
+    <ThirdwebProvider 
+      clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
+      activeChain={Sepolia}>
       <ChakraProvider>
         <NavBar/>
         <Component {...pageProps} />
