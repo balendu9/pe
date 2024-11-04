@@ -8,7 +8,7 @@ export default function NavBar() {
                 <Heading>TYCOON (testnet v0)</Heading>
                 <Flex alignItems={"center"}>
                     <Link href={"/"} mx={2}>Play</Link>
-                    <Link href={"/shop"} mx={2}>Shop</Link>
+                    <Link href={"/shop"} mx={2}>MarketPlace</Link>
                 </Flex>
                 <ConnectWallet/>
             </Flex>
