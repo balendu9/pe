@@ -30,7 +30,7 @@ const Home: NextPage = () => {
     return (
       <Container maxW={"1200px"}>
         <Flex direction={"column"} h={"100vh"} justifyContent={"center"} alignItems={"center"}>
-          <Heading my={"40px"}>Welcome to TYCOON</Heading>
+          <Heading my={"40px"}>Welcom to TYCOON</Heading>
           <ConnectWallet />
         </Flex>
       </Container>
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
     <Container maxW={"1200px"}>
       <SimpleGrid columns={2} spacing={10}>
         <Card p={5}>
-          <Heading>Farmer:</Heading>
+          <Heading>WORKER:</Heading>
           <SimpleGrid columns={2} spacing={10}>
             <Box>
               {ownedFarmers?.map((nft) => (
@@ -90,7 +90,7 @@ const Home: NextPage = () => {
         </Card>
       </SimpleGrid>
       <Card p={5} my={10}>
-        <Heading mb={"30px"}>Equiped Businesses:</Heading>
+        <Heading mb={"30px"}>Business Launched</Heading>
         <SimpleGrid columns={3} spacing={10}>
             {equippedTools &&
               equippedTools[0].map((nft: BigNumber) => (
