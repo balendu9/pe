@@ -19,7 +19,7 @@ export default function Shop()  {
                 </Link>
             </Flex>
             <Heading mt={"40px"}>Shop</Heading>
-            <Text>Purchase busineeses with $TYCT to increase your earnings.</Text>
+            <Text>Purchase tools with $TYCT to increase your earnings.</Text>
             {!nfts ? (
                 <Flex h={"50vh"} justifyContent={"center"} alignItems={"center"}>
                     <Spinner />
